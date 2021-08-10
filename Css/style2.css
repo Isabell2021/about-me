@@ -1,0 +1,87 @@
+.body{
+    margin: 0 auto;
+    padding: 0;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+.card{
+    position: relative;
+    width: 100%;
+    box-shadow: 5px 5px 9px black;
+    transform-style: preserve-3d;
+    transition: 1s;
+    perspective: 1000px;
+}
+.card:hover{
+    transform: rotateY(180deg);
+
+    }
+
+.font, .back{
+    position: absolute;
+    width: 100%;
+    box-shadow: 5px 5px 9px grey;
+    
+    
+}
+.heading, h2{
+    background-color: green;
+    line-height: 2;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+.font, img{
+    width: 100%;
+    margin-top: 0;
+    display: block;
+}
+.main > p:first-of-type{
+    margin-top: 15px;
+    padding-left: 15px;
+}
+.main > p:last-of-type{
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+.font{
+    backface-visibility: hidden;
+}
+.back{
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-color: white;
+    height: 500px;
+    
+}
+.back, p{
+    padding-left: 15px;
+
+    
+}
+.final{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    padding-top: 20px;
+    background-color: green;
+    line-height: 2;
+    margin-bottom: 0;
+
+}
+.final, a{
+    text-decoration: none;
+}
+.final, a:hover{
+    text-decoration: underline ;
+    color: yellow;
+}

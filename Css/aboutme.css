@@ -1,0 +1,359 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.background {
+  background-image: url("https://files.123freevectors.com/wp-content/original/131666-purple-and-white-polygon-background-design-graphic.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  color: grey;
+}
+.header h1 {
+  font-size: 30px;
+}
+.header h1:hover {
+  color: honeydew;
+  box-shadow: 5px 5px 9px honeydew;
+  text-transform: uppercase;
+  transition: 2s;
+}
+.header p {
+  font-weight: bold;
+}
+.header p:hover {
+  color: honeydew;
+  border-right: 3px solid whitesmoke;
+  border-bottom: 3px solid white;
+  text-transform: uppercase;
+  transition: 1s;
+}
+.intro {
+  width: 50%;
+  height: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 60px;
+  color: darkolivegreen;
+}
+.intro h1 {
+  font-size: 30px;
+}
+.intro p {
+  line-height: 1.8;
+}
+button {
+  padding: 8px;
+  color: black;
+  cursor: pointer;
+  transition: 0.7s;
+}
+button a {
+  color: deeppink;
+  cursor: pointer;
+  text-decoration: none;
+}
+button:hover {
+  background-color: rgba(243, 181, 243, 05);
+  transition: 0.8s;
+}
+.main {
+  background-color: #fadcd9;
+  margin-top: 0;
+}
+.main2 {
+  width: 60%;
+  margin: 0 auto;
+}
+.main2 h2 {
+  text-align: center;
+  font-size: 35px;
+  color: azure;
+  margin-bottom: 70px;
+  padding-top: 50px;
+  margin-top: 0;
+}
+.main2 h2:hover {
+  box-shadow: 5px 5px 9px white;
+  transition: 0.8s;
+}
+.cn {
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+  margin-right: 40px;
+}
+.china {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+#clearafter::after {
+  display: block;
+  content: " ";
+  clear: both;
+}
+.china:hover {
+  box-shadow: 5px 5px 8px grey;
+  transition: 02s;
+}
+.china dl {
+  font-size: 17px;
+  color: rgb(184, 55, 162);
+  font-weight: bold;
+}
+.china dt {
+  color: purple;
+  font-size: 27px;
+  padding-bottom: 14px;
+}
+.japan {
+  clear: left;
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+.japan:hover {
+  box-shadow: 3px 3px 5px grey;
+  transition: 0.5s;
+}
+.japan img {
+  float: right;
+  border-radius: 50%;
+  shape-outside: circle();
+  margin-left: 50px;
+}
+.japan dt {
+  color: purple;
+  font-size: 27px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.japan dd {
+  color: rgb(184, 55, 162);
+  font-weight: bold;
+  font-size: 17px;
+}
+#clearafter2::after {
+  clear: both;
+  content: " ";
+  display: block;
+}
+.uk img {
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+  margin-right: 50px;
+}
+.uk {
+  margin-top: 30px;
+  padding-bottom: 25px;
+  padding-top: 20px;
+}
+.uk:hover {
+  box-shadow: 3px 3px 5px grey;
+  transition: 0.5s;
+}
+#clearafter3::after {
+  clear: both;
+  content: " ";
+  display: block;
+}
+.uk dt {
+  color: purple;
+  font-size: 27px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.uk dd {
+  color: rgb(184, 55, 162);
+  font-weight: bold;
+  font-size: 17px;
+}
+.india img {
+  border-radius: 50%;
+  shape-outside: circle();
+  float: right;
+  margin-left: 30px;
+}
+.india {
+  margin-top: 30px;
+  padding-bottom: 25px;
+  padding-top: 20px;
+}
+.india:hover {
+  box-shadow: 3px 3px 5px grey;
+  transition: 2s;
+}
+.india dt {
+  color: purple;
+  font-size: 27px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.india dd {
+  color: rgb(184, 55, 162);
+  font-weight: bold;
+  font-size: 17px;
+}
+.india:hover {
+  box-shadow: 3px 3px 5px grey;
+  transition: 0.3s;
+}
+#clearafter4::after {
+  clear: both;
+  content: " ";
+  display: block;
+}
+.nepal img {
+  border-radius: 50%;
+  shape-outside: circle();
+  float: left;
+  margin-right: 30px;
+}
+
+.nepal dt {
+  color: purple;
+  font-size: 27px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.nepal dd {
+  color: rgb(184, 55, 162);
+  font-weight: bold;
+  font-size: 17px;
+}
+
+#clearafter5::after {
+  clear: both;
+  content: " ";
+  display: block;
+}
+.nepal {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+.nepal:hover {
+  box-shadow: 3px 3px 5px grey;
+  transition: 0.3s;
+}
+.hobby {
+  background-color: #f8afa6;
+  margin-top: -35px;
+}
+.inner {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 80px;
+  border-radius: 10px;
+}
+.cards {
+  border: 0.5px solid grey;
+  border-radius: 15px;
+  width: 250px;
+  transition: 5s;
+  background-color: rgb(188, 161, 241);
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.cards:hover {
+  transform: scale(0.9);
+  box-shadow: 5px 5px 9px grey;
+}
+.cards h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+.cards p {
+  margin: 0;
+  text-align: center;
+  color: white;
+  background-color: rgb(188, 161, 241);
+  padding: 20px;
+  display: block;
+}
+.cards p:hover {
+  color: #000000;
+  transition: 4s;
+}
+.cards img {
+  display: block;
+}
+.hobby h2 {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 40px;
+  padding-left: 30px;
+  position: relative;
+}
+.hobby h2:hover {
+  color: mediumslateblue;
+  transition: 04s;
+  top: -15px;
+}
+.footer {
+  background-color: #f79489;
+}
+.contact {
+  padding-top: 100px;
+  text-align: center;
+}
+.contact img {
+  border-radius: 50%;
+}
+
+.final {
+  text-align: center;
+  transition: 1s;
+}
+
+.contact2 {
+  display: inline-block;
+}
+
+/* .final:hover :first-of-type {
+  transform: scale(0.9);
+}
+.final:hover :nth-of-type(2) {
+  transform: scale(0.9);
+}
+.final:hover :nth-of-type(3) {
+  transform: scale(0.9);
+}
+.final:hover :nth-of-type(4) {
+  transform: scale(0.9);
+} */
+
+.contact2:hover {
+  transform: scale(0.9);
+}
+
+.final span {
+  font-family: 50px;
+  font-weight: bold;
+}
+.last {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
